@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    
+    <!-- Remember to replace this with your title! -->
+    <title>Anshika's Website</title>
+    
+    <!-- Link for boostrap from: 
+    https://getbootstrap.com/docs/5.0/getting-started/introduction -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+
+    <!-- Custom styles (these can extend bootstrap which is JUST CSS!) -->
+    <link href="style.css" rel="stylesheet" type="text/css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@300&family=Playfair+Display+SC:wght@700&family=Playfair+Display:ital,wght@1,500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@900&display=swap" rel="stylesheet">
+
+  </head>
+
+  <body data-bs-spy="scroll" data-bs-target="#navbar-spy" data-bs-offset="100">
+
+  <!-- Navbar: Skip this and start with the hero section. When You're ready to return start by copy/pasting this snippet:
+
+  https://getbootstrap.com/docs/5.0/components/navbar/#nav 
+  -->
+  <!-- PASTE NAVBAR CODE TO CUSTOMIZE -->
+ <div class="container">
+  <nav class="navbar navbar-expand-md fixed-top navbar-light bg-light" id="navbar-spy">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><i class="bi bi-house"></i></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#mission-section">Meet Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills-section">Skills</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link" href="#inspiration-section">
+              Inspiration
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact-section">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</div>
+
+  <!-- Hero section -->
+  <section id="hero-section">
+    <!-- Start writing your hero section here. -->
+    <div id="profile-img"></div>
+    <h2>Anshika Bhowmick</h2>
+    <h6><i>The Purpose Of Our Lives Is To Be Happy</i></h6>
+  </section>
+
+  <!-- Mission/Meet-me section -->
+  <section id="mission-section">
+    <div class="container">
+      <div class="row">
+      <!-- Start writing your Mission/Meet-me section here. -->
+        <h3>Meet Me</h3>
+        <div class="col-12 col-md-6">
+          <img src="https://www.business.com/images/content/5a6/90b4e51ee4720458b456b/1500-0-" class="center" alt="Computer with random code">
+        </div>
+        <div class="col-12 col-md-6">
+          <div class="mission-text">
+            <p>I am a student at the University of South Florida, Tampa. I am a rising junior and I am majoring in Computer Science with a minor in Mathematics.</p> 
+            <p>During the summer I am keeping myself busy by working as a Computer Assistant at the Student Governement Computer Services on campus. I am also working as an Orientation Mentor for the Judy Genshaft Honors College at USF. Furthermore, I am taking a course in which I am learning about HTML, CSS, Bootstrap, and JavaScript.</p>
+            <p>I enjoy coding and knowing that coding has several benefits, I hope to make the world a better place through my coding skills! </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills section -->
+  <section id="skills-section">
+    <!-- Start writing your skills section here. -->
+    <div class="container">
+    <h3>Skills Section</h3>
+    <div class="row">
+      <div class="col-lg-3 col-md-6 col-sm-12">
+      <div class="skill-container">
+        <img src="img/html5.png">
+        <p>Structuring the web's content using modern semantic HTML.</p>
+      </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6 col-sm-12">
+      <div class="skill-container">
+        <img src="https://freeiconshop.com/wp-content/uploads/edd/css-outline.png">
+        <p>Presenting beautiful web designs and interactions using modern CSS.</p>
+      </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6 col-sm-12">
+      <div class="skill-container">
+        <img src="https://cdn.iconscout.com/icon/free/png-256/bootstrap-6-1175203.png">
+        <p>Rapidly developing responsive websites using the web's most popular framework.</p>
+      </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6 col-sm-12">
+      <div class="skill-container">
+        <img src="https://freeiconshop.com/wp-content/uploads/edd/js-solid.png">
+        <p>Programming the behavior of web pages using the programming language of the web i.e. JavaScript.</p>
+      </div>
+      </div>
+    </div>
+  </div>
+  </section>
+
+<!-- Inspiration Section -->
+  <section id="inspiration-section">
+    <div class="container">
+      <h3>Inspiration Section</h3>
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://ktla.com/wp-content/uploads/sites/4/2018/01/gettyimages-814600274.jpg?w=900" class="d-block w-100" alt="Mark Zuckerberg">
+            <div class="carousel-caption">
+              <h5>"The biggest risk is not taking any risk... In a world that is changing really quickly, the only strategy that is guaranteed to fail is not taking risks."</h5>
+              <p>Mark Zuckerberg</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://www.phillymag.com/wp-content/uploads/sites/3/2021/01/mlkdayphilly-featured.jpg" class="d-block w-100" alt="Martin Luther King Jr.">
+            <div class="carousel-caption">
+              <h5>"The ultimate measure of a man is not where he stands in moments of comfort and convenience, but where he stands at times of challenge and controversy."</h5>
+              <p>Martin Luther King Jr</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://fox40.com/wp-content/uploads/sites/13/2018/03/gettyimages-687514600.jpg?w=900" class="d-block w-100" alt="Hasan Minhaj">
+            <div class="carousel-caption">
+              <h5>"My goal is just to continue to find mediums to tell stories that I think need to be told."</h5>
+              <p>Hasan Minhaj</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+<!-- Contact Section -->
+<section id="contact-section">
+  <div class="container">
+    <h3>Contact</h3>
+   
+      <!-- See https://icons.getbootstrap.com/ -->
+      <div class="row">
+        <div class="col-md-4 col-sm-12">
+          <a href="https://www.instagram.com/anshikabhowmick/"><i class="bi bi-instagram"></i></a>
+        </div>
+        <div class="col-md-4 col-sm-12">
+          <a href="https://www.linkedin.com/in/anshikabhowmick/"><i class="bi bi-linkedin"></i></a>
+        </div>
+        <div class="col-md-4 col-sm-12">
+          <a href="https://www.facebook.com/anshika321"><i class="bi bi-facebook"></i></a>
+        </div>
+      </div>
+  </div>
+</section>
+
+  <!-- Footer section -->
+  <footer class="footer-section">
+    &copy Anshika Bhowmick 2021 
+  </footer>
+
+  <!-- Bootstrap Javascript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>

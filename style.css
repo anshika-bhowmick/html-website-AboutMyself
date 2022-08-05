@@ -1,0 +1,139 @@
+/* You can add custom CSS and override boostrap styles in this file.  Remember, bootstrap is just CSS at the end of the day! */
+#navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+h2 {
+  font-family: 'Merriweather', serif;
+  text-shadow: 2px 2px 5px purple;
+}
+
+h6 {
+  font-family: 'Architects Daughter', cursive;
+  text-shadow: 0px 4px 3px rgba(0,0,0,0.4), 0px 8px 13px rgba(0,0,0,0.1), 0px 18px 23px rgba(0,0,0,0.1);
+}
+
+h3 {
+  font-family: 'Mate SC', serif;
+  letter-spacing: 1px;
+  font-size: 40px;
+  padding-bottom: 20px;
+  text-shadow: 2px 1px;
+}
+#hero-section {
+  /* This should be an image. ('https://picsum.photos/3840/2160/');*/
+  background-color: aqua;
+  background-image: url('https://wallpapercave.com/wp/wp2936322.png');
+  background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	min-height: 100vh;
+  /* Change this values to work for you. */
+  padding: clamp(100px, 20vh, 200px) 0;
+}
+
+#profile-img {
+  /* Change this values to work for you. */
+  margin: clamp(10px, 20vh, 100px) auto;
+
+  /* This should be an image */
+  background-color: black;
+  background-image: url("https://i.imgur.com/rpsx1qy.jpeg");
+  background-size: cover;
+  border-radius: 50%;
+  border: 4px solid white;
+
+  /* Change this values to work for you. */
+  height: clamp(100px, 40vh, 200px);
+
+  /* Change this values to work for you. */
+  width: clamp(100px, 40vh, 200px); 
+} 
+
+#hero-section h2 {
+  /* How to center text? */
+  text-align: center;
+  color: white;
+  margin-top: -40px;
+
+  /* Add responsive vertical margins via clamp? */
+}
+
+#hero-section h6 {
+  text-align: center;
+  color: white;
+}
+
+#mission-section {
+  background-color: rgb(120, 191, 194);
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+
+#mission-section h3{
+  text-align: center;
+  color: white;
+  text-shadow: 2px 1px 1px black;
+}
+
+.mission-text {
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.center {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%
+}
+
+#skills-section {
+  text-align: center;
+  padding: 20px;
+  background-color: lightcyan;
+}
+
+#inspiration-section {
+  text-align: center;
+  padding: 20px;
+  background-color: rgb(120, 191, 194);
+}
+
+.d-block {
+  filter: brightness(50%);
+  padding-bottom: 20px;
+}
+
+h5 {
+  font-family: 'Playfair Display', serif;
+  font-size: 3vw;
+  text-shadow: 2px 2px 5px blue;
+}
+
+.carousel-caption p{
+  font-family: 'Playfair Display SC', serif;
+  font-size: 1.25em;
+  letter-spacing: 2px;
+}
+
+#contact-section {
+  text-align: center;
+  background-color: lightcyan;
+  border: 7px black double; /* added border*/
+  padding: 10px;
+}
+
+.bi {
+  font-size: 2em;
+}
+
+.footer-section {
+  background-color: #5F9EA0;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
